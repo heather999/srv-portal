@@ -23,9 +23,8 @@ file_env() {
     unset "$fileVar"
 }
 
-file_env 'GLOBUS_CLIENT_ID' 
-file_env 'GLOBUS_CLIENT_SECRET'
-file_env 'GLOBUS_GLOBAL_SECRET'
+file_env 'GITHUB_OAUTH_CLIENT_ID' 
+file_env 'GITHUB_OAUTH_CLIENT_SECRET'
 
 exec "$@"
 

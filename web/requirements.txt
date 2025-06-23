@@ -1,4 +1,4 @@
-Flask==2.2.2
-globus-sdk==3.12.0
+flask-dance
 Jinja2
+oauthlib==3.2.2  #temporary
 jinja_markdown
